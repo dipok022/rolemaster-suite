@@ -1,0 +1,28 @@
+name: Freemius Deploy and Release
+on:
+  push:
+    tags:
+      - "*"
+jobs:
+  deploy:
+    name: Freemius and wp.org Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: WordPress.org Plugin Deploy
+        uses: 10up/action-wordpress-plugin-deploy@stable
+        with:
+          generate-zip: true
+          dry-run: false
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          # SLUG: ${{ secrets.PLUGIN_SLUG }} # optional, remove if GitHub repo name matches SVN slug, including capitalization
+          # BUILD_DIR: built/${{ secrets.PLUGIN_SLUG }}
+
+      - name: WordPress.org plugin asset/readme update
+        uses: 10up/action-wordpress-plugin-asset-update@stable
+        env:
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          # ASSETS_DIR: .wordpress-org
+          IGNORE_OTHER_FILES: true
