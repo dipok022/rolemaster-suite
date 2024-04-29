@@ -3,47 +3,101 @@
  * Plugin Name: RoleMaster Suite
  * Plugin URI:  https://jeweltheme.com/rolemaster-suite
  * Description: User Roles & Capability Plugin
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Jewel Theme
- * Author URI:  https://jeweltheme.com
+ * Author URI:  https://jeweltheme.com/rolemaster-suite
  * Text Domain: rolemaster-suite
- * Domain Path: /languages/
- * License: GPLv3 or later
+ * Domain Path: languages/
+ * License:     GPLv3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  *
- * @package RoleMaster Suite
+ * @package rolemaster-suite
  */
 
- if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-/**
- * Tweaks init
- */
-add_action('init', 'rolemaster_suite_init');
-function rolemaster_suite_init(){
-    rolemaster_suite_hide_frontend_admin_bar();
+$rolemaster_suite_plugin_data = get_file_data(
+	__FILE__,
+	array(
+		'Version'     => 'Version',
+		'Plugin Name' => 'Plugin Name',
+		'Author'      => 'Author',
+		'Description' => 'Description',
+		'Plugin URI'  => 'Plugin URI',
+	),
+	false
+);
+
+// Define Constants.
+if ( ! defined( 'ROLEMASTER' ) ) {
+	define( 'ROLEMASTER', $rolemaster_suite_plugin_data['Plugin Name'] );
 }
 
-/**
- * Hide Frontend Admin Bar
- *
- * @return void
- */
-function rolemaster_suite_hide_frontend_admin_bar(){
+if ( ! defined( 'ROLEMASTER_VER' ) ) {
+	define( 'ROLEMASTER_VER', $rolemaster_suite_plugin_data['Version'] );
+}
 
-    // Check if the user is logged in
-    if (is_user_logged_in()) {
-        // Get the current user's roles
-        $user = wp_get_current_user();
-        $roles = (array) $user->roles;
+if ( ! defined( 'ROLEMASTER_AUTHOR' ) ) {
+	define( 'ROLEMASTER_AUTHOR', $rolemaster_suite_plugin_data['Author'] );
+}
 
-        // Define the roles for which the admin bar should be hidden
-        $roles_to_hide_admin_bar = array('subscriber', 'contributor');
+if ( ! defined( 'ROLEMASTER_DESC' ) ) {
+	define( 'ROLEMASTER_DESC', $rolemaster_suite_plugin_data['Author'] );
+}
 
-        // Check if the user has one of the specified roles
-        if (array_intersect($roles, $roles_to_hide_admin_bar)) {
-            // Hide the admin bar for users with specified roles
-            add_filter('show_admin_bar', '__return_false');
-        }
-    }    
+if ( ! defined( 'ROLEMASTER_URI' ) ) {
+	define( 'ROLEMASTER_URI', $rolemaster_suite_plugin_data['Plugin URI'] );
+}
+
+if ( ! defined( 'ROLEMASTER_DIR' ) ) {
+	define( 'ROLEMASTER_DIR', __DIR__ );
+}
+
+if ( ! defined( 'ROLEMASTER_FILE' ) ) {
+	define( 'ROLEMASTER_FILE', __FILE__ );
+}
+
+if ( ! defined( 'ROLEMASTER_SLUG' ) ) {
+	define( 'ROLEMASTER_SLUG', dirname( plugin_basename( __FILE__ ) ) );
+}
+
+if ( ! defined( 'ROLEMASTER_BASE' ) ) {
+	define( 'ROLEMASTER_BASE', plugin_basename( __FILE__ ) );
+}
+
+if ( ! defined( 'ROLEMASTER_PATH' ) ) {
+	define( 'ROLEMASTER_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
+}
+
+if ( ! defined( 'ROLEMASTER_URL' ) ) {
+	define( 'ROLEMASTER_URL', trailingslashit( plugins_url( '/', __FILE__ ) ) );
+}
+
+if ( ! defined( 'ROLEMASTER_INC' ) ) {
+	define( 'ROLEMASTER_INC', ROLEMASTER_PATH . '/Inc/' );
+}
+
+if ( ! defined( 'ROLEMASTER_LIBS' ) ) {
+	define( 'ROLEMASTER_LIBS', ROLEMASTER_PATH . 'Libs' );
+}
+
+if ( ! defined( 'ROLEMASTER_ASSETS' ) ) {
+	define( 'ROLEMASTER_ASSETS', ROLEMASTER_URL . 'assets/' );
+}
+
+if ( ! defined( 'ROLEMASTER_IMAGES' ) ) {
+	define( 'ROLEMASTER_IMAGES', ROLEMASTER_ASSETS . 'images/' );
+}
+
+if ( ! class_exists( '\\ROLEMASTER\\Rolemaster_Suite' ) ) {
+	// Autoload Files.
+	include_once ROLEMASTER_DIR . '/vendor/autoload.php';
+	// Instantiate Rolemaster_Suite Class.
+	include_once ROLEMASTER_DIR . '/class-rolemaster-suite.php';
+}
+
+// Activation and Deactivation hooks.
+if ( class_exists( '\\ROLEMASTER\\Rolemaster_Suite' ) ) {
+	register_activation_hook( ROLEMASTER_FILE, array( '\\ROLEMASTER\\Rolemaster_Suite', 'rolemaster_suite_activation_hook' ) );
+	// register_deactivation_hook( ROLEMASTER_FILE, array( '\\ROLEMASTER\\Rolemaster_Suite', 'rolemaster_suite_deactivation_hook' ) );
 }

@@ -1,0 +1,23 @@
+{
+    "name": "litonarefin/rolemaster-suite",
+    "autoload": {
+        "psr-4": {
+            "ROLEMASTER\\Inc\\": "Inc/",
+            "ROLEMASTER\\Inc\\Admin\\": "Inc/Admin",
+            "ROLEMASTER\\Libs\\": "Libs/",
+            "ROLEMASTER\\Libs\\License\\": "Libs/License/"
+        },
+        "files": [
+            "Libs/License/manager.php",
+            "Inc/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jewel Theme",
+            "email": "support@jeweltheme.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {}
+}
