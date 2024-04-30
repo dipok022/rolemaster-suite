@@ -2,7 +2,7 @@
 
 namespace ROLEMASTER\Inc\Classes;
 
-use WPAdminify\Inc\Base_Model;
+use ROLEMASTER\Inc\Base_Model;
 
 class UserRoleEditorOptions extends UserRoleEditorModel
 {

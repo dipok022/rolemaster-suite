@@ -20,6 +20,18 @@ if ( ! class_exists( 'Helper' ) ) {
 	 */
 	class Helper {
 
+		/**
+		 * Check is Plugin Active
+		 *
+		 * @param [type] $plugin_path
+		 *
+		 * @return boolean
+		 */
+		public static function is_plugin_active($plugin_path)
+		{
+			include_once ABSPATH . 'wp-admin/includes/plugin.php';
+			return is_plugin_active($plugin_path);
+		}
 
 		/**
 		 * Remove spaces from Plugin Slug

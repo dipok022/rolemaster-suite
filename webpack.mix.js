@@ -30,7 +30,6 @@ mix.sourceMaps(false, 'source-map');
 if (process.env.NODE_ENV.trim() !== "production") mix.disableNotifications();
 
 if (process.env.NODE_ENV.trim() === 'production') {
-
     // Language pot file generator
     wpPot({
         destFile: "languages/rolemaster-suite.pot",
@@ -43,13 +42,14 @@ if (process.env.NODE_ENV.trim() === 'production') {
 // SCSS to CSS
 mix.sass("dev/scss/sdk.scss", "assets/css/rolemaster-suite-sdk.min.css");
 mix.sass("dev/scss/survey.scss", "assets/css/rolemaster-suite-survey.css");
-
+mix.sass("dev/user-role-editor/app.scss", "assets/css/rolemaster-suite-user-role-editor.css");
 
 // mix.sass("dev/scss/admin-settings.scss", "assets/css/rolemaster-suite-admin-settings.min.css");
 // mix.sass("dev/scss/premium/rolemaster-suite-pro-styles.scss", "Pro/assets/css/rolemaster-suite-pro.min.css");
 
 // Scripts to js - regular
 // mix.scripts( 'dev/js/rolemaster-suite.js', 'assets/js/rolemaster-suite.js' );
+mix.js("dev/user-role-editor/index.js", "assets/js/rolemaster-suite-user-role-editor.js").react();
 
 
 // Third Party Plugins Support

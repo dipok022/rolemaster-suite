@@ -2,21 +2,17 @@
 
 namespace ROLEMASTER\Inc\Classes;
 
-use WPAdminify\Inc\Utils;
-use WPAdminify\Inc\Admin\AdminSettings;
-
 // no direct access allowed
 if (!defined('ABSPATH'))  exit;
 
 class UserRoleEditorApiEndPoints extends UserRoleEditorModel
 {
 
-	private $namespace = 'wp-adminify-user-role-editor-api/';
+	private $namespace = 'rolemaster-suite-editor-api/';
 	private $version = 'v1';
 
     public function __construct()
     {
-        $this->adminify_ui = AdminSettings::get_instance()->get('admin_ui');
         add_action( 'rest_api_init', [$this, 'add_endpoints'] );
     }
 
