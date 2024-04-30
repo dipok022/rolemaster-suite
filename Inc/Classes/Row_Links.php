@@ -35,7 +35,7 @@ if ( ! class_exists( 'Row_Links' ) ) {
 		 * @author Jewel Theme <support@jeweltheme.com>
 		 */
 		public function plugin_action_links( $links ) {
-            
+
 			return $links;
 		}
 	}

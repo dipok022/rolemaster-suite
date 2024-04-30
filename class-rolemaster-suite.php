@@ -48,7 +48,45 @@ if ( ! class_exists( '\ROLEMASTER\Rolemaster_Suite' ) ) {
 			add_filter( 'admin_body_class', array( $this, 'rolemaster_suite_body_class' ) );
 			// This should run earlier .
 			// add_action( 'plugins_loaded', [ $this, 'rolemaster_suite_maybe_run_upgrades' ], -100 ); .
+
+			add_action( 'admin_menu', array( $this, 'rolemaster_suite_admin_menu' ) );
 		}
+
+
+		/**
+		 * Register Main Menu.
+		 *
+		 * @return void
+		 *
+		 * @author Jewel Theme <support@jeweltheme.com>
+		 */
+		public function rolemaster_suite_admin_menu()
+		{
+			add_menu_page(
+				__('Rolemaster Suite', 'rolemaster-suite'),
+				__('Rolemaster Suite', 'rolemaster-suite'),
+				'manage_options',
+				'rolemaster_suite_editor' . '-settings',
+				array($this, 'rolemaster_suite_settings_page'),
+				ROLEMASTER_IMAGES . 'menu-icon.svg',
+				40
+			);
+
+			add_submenu_page(
+				'rolemaster_suite_editor' . '-settings',
+				__('Rolemaster Suite Settings', 'rolemaster-suite'),
+				__('Settings', 'rolemaster-suite'),
+				'manage_options',
+				'rolemaster_suite_editor' . '-settings',
+				array($this, 'rolemaster_suite_settings_page'),
+				10
+			);
+		}
+
+		public function rolemaster_suite_settings_page(){
+			echo '<h2>Settings Page</h2>';
+		}
+
 
 		/**
 		 * plugins_loaded method
@@ -166,10 +204,10 @@ if ( ! class_exists( '\ROLEMASTER\Rolemaster_Suite' ) ) {
 			load_textdomain( $domain, WP_LANG_DIR . '/' . $domain . '/' . $domain . '-' . $locale . '.mo' );
 			load_plugin_textdomain( $domain, false, dirname( ROLEMASTER_BASE ) . '/languages/' );
 		}
-		
+
 		/**
 		* Deactivate Pro Plugin if it's not already active
-		* 
+		*
 		* @author Jewel Theme <support@jeweltheme.com>
 		*/
 		public static function rolemaster_suite_activation_hook() {
@@ -182,7 +220,7 @@ if ( ! class_exists( '\ROLEMASTER\Rolemaster_Suite' ) ) {
 				deactivate_plugins( $plugin );
 			}
 		}
-		
+
 
 		/**
 		 * Returns the singleton instance of the class.

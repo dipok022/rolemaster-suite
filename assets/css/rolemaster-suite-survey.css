@@ -1,172 +1,165 @@
+/* Survey Variables */
+/** Overlay */
+/** JS */
+@keyframes rolemaster-suite-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 .rolemaster-suite-deactivate-survey-modal {
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -40px;
-    width: 100%;
-    max-width: 635px;
-    border-radius: 5px;
-    background-color: #fff;
-    color: rgb(14, 1, 1);
-    display: block;
-    z-index: 9999999999999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -40px;
+  width: 100%;
+  max-width: 635px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: rgb(14, 1, 1);
+  display: block;
+  z-index: 9999999999999;
+}
+.rolemaster-suite-deactivate-survey-modal header {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 3px 6px 3px 11px;
+}
+.rolemaster-suite-deactivate-survey-modal .rolemaster-suite-deactivate-info {
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 32px;
+  text-align: left;
+  padding-left: 16px;
+  padding-bottom: 23px;
+  line-height: 1.5;
 }
 
 .rolemaster-suite-deactivate-input-wrapper {
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
 }
-
 .rolemaster-suite-deactivate-input-wrapper .other {
-    display: flex;
-    align-items: baseline;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-feedback-text {
+  width: 80%;
+  padding: 7px 14px;
+}
+.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-dialog-input {
+  float: right;
+  margin-block: 0;
+  margin-inline: 0 15px;
+  box-shadow: none;
+}
+.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-dialog-input:not(:checked) ~ .rolemaster-suite-deactivate-feedback-text {
+  display: none;
+}
+.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-text {
+  background-color: transparent;
+  color: var(--e-a-color-txt);
+  margin-block: 10px 0;
+  margin-inline: 30px 0;
+  padding: 5px;
+  box-shadow: none;
+  width: 45%;
+}
+.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-dialog-label {
+  display: block;
+  font-size: 13px;
 }
 
 .rolemaster-suite-deactivate-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-right: 40px;
 }
 
 .rolemaster-suite-dialog-lightbox-skip {
-    border: 0;
-    cursor: pointer;
-    padding: 0px 15px;
+  border: 0;
+  cursor: pointer;
+  padding: 0px 15px;
 }
 
 .rolemaster-suite-dialog-lightbox-submit {
-    background-color: #3D5DFF;
-    border-radius: 3px;
-    color: #fff;
-    line-height: 1;
-    padding: 12px 20px;
-    font-size: 13px;
-    width: 180px;
-    height: 38px;
-    border: 0;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+  background-color: #3D5DFF;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 1;
+  padding: 12px 20px;
+  font-size: 13px;
+  width: 180px;
+  height: 38px;
+  border: 0;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
-
 .rolemaster-suite-dialog-lightbox-submit:hover {
-    opacity: 0.9;
-    background: #263580;
-}
-
-.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-feedback-text {
-    width: 80%;
-    padding: 7px 14px;
+  opacity: 0.9;
+  background: #263580;
 }
 
 form.rolemaster-suite-deactivate-form-wrapper {
-    padding-bottom: 32px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.rolemaster-suite-deactivate-survey-modal header {
-    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
-    padding: 3px 6px 3px 11px;
-}
-
-.rolemaster-suite-deactivate-survey-modal .rolemaster-suite-deactivate-info {
-    font-weight: 500;
-    font-size: 14px;
-    padding-top: 32px;
-    text-align: left;
-    padding-left: 16px;
-    padding-bottom: 23px;
-    line-height: 1.5;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .rolemaster-suite-deactivate-content-wrapper {
-    padding: 3px 6px 3px 24px;
+  padding: 3px 6px 3px 24px;
 }
 
 .rolemaster-suite-deactivate-survey-header {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
-.rolemaster-suite-deactivate-survey-header img{
-    width: 25px;
+.rolemaster-suite-deactivate-survey-header img {
+  width: 25px;
 }
 
-/** Overlay */
 .rolemaster-suite-deactivate-survey-overlay {
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
-    position: fixed;
-    top: 0;
-    backdrop-filter: blur(1px);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: rgba(0, 0, 0, .8);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: fixed;
+  top: 0;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/** JS */
 .rolemaster-suite-deactivate-survey-is-visible {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-dialog-input {
-    float: right;
-    margin-block: 0;
-    margin-inline: 0 15px;
-    box-shadow: none;
-}
-
-.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-dialog-input:not(:checked)~.rolemaster-suite-deactivate-feedback-text {
-    display: none;
-}
-
-.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-text {
-    background-color: transparent;
-    color: var(--e-a-color-txt);
-    margin-block: 10px 0;
-    margin-inline: 30px 0;
-    padding: 5px;
-    box-shadow: none;
-    width: 45%;
-}
-
-.rolemaster-suite-deactivate-input-wrapper .rolemaster-suite-deactivate-feedback-dialog-label {
-    display: block;
-    font-size: 13px;
-}
-
-@keyframes rolemaster-suite-rotation {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
+  opacity: 1;
+  pointer-events: auto;
 }
 
 #rolemaster-suite-dialog-lightbox-submit.rolemaster-suite-loading:before {
-    position: absolute;
-    display: inline-block;
-    content: "\f463";
-    font: 16px dashicons;
-    margin: -2px -20px;
-    animation: rolemaster-suite-rotation 2s linear infinite;
+  position: absolute;
+  display: inline-block;
+  content: "\f463";
+  font: 16px dashicons;
+  margin: -2px -20px;
+  animation: rolemaster-suite-rotation 2s linear infinite;
 }
+
+/*# sourceMappingURL=rolemaster-suite-survey.css.map*/
