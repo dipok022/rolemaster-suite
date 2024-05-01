@@ -17,7 +17,7 @@ function App() {
 
     return (
         <>
-            <div className="wp-adminify--user--role--editor--container">
+            <div className="rolemaster-suite--user--role--editor--container">
                 <Header />
                 <Body />
             </div>

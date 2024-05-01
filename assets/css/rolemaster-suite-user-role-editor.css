@@ -10,11 +10,11 @@ body.wp-adminify {
   /*
   */
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container {
   padding-top: 50px;
   position: relative;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container #adminify-data-saved-message {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container #adminify-data-saved-message {
   border: 0;
   line-height: 16px;
   margin-bottom: 15px;
@@ -29,7 +29,7 @@ body.wp-adminify {
   top: 0;
   left: 0;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .wp-adminify-user--role--editor-loader {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .rolemaster-suite-user--role--editor-loader {
   background-color: rgba(255, 255, 255, 0.75);
   position: absolute;
   left: calc(50% - 30px);
@@ -42,103 +42,103 @@ body.wp-adminify {
   animation: wp_adminify_loader_keyframe 1s infinite linear;
   z-index: 1;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading {
   margin-top: 0.6rem !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container {
   width: 250px;
   color: #000;
   font-weight: normal;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control {
   border-color: hsl(0, 0%, 80%) !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__value-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__value-container {
   padding: 0px 8px !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__input-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__input-container {
   margin: 0 !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__indicator-separator {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__indicator-separator {
   display: none !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__indicator {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .adminify-user-role-editor-heading .user-role-select-container .user-role-select__control .user-role-select__indicator {
   color: hsl(0, 0%, 20%) !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .wp-adminify--page--title--actions button.page-title-action.user-role-editor-action-button {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .rolemaster-suite-page-title--actions button.page-title-action.user-role-editor-action-button {
   line-height: 36px !important;
   margin-left: 0;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .wp-adminify--page--title--actions button.page-title-action.user-role-editor-action-button:first-child {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .rolemaster-suite-page-title--actions button.page-title-action.user-role-editor-action-button:first-child {
   margin-right: 0 !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .wp-adminify--page--title--actions button.page-title-action.user-role-editor-action-button.user-role-editor-button-danger {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .rolemaster-suite-page-title--actions button.page-title-action.user-role-editor-action-button.user-role-editor-button-danger {
   border-color: #ce0356 !important;
   color: #ce0356 !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-header .wp-adminify--page--title--actions button.page-title-action.user-role-editor-action-button.user-role-editor-button-danger:hover {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-header .rolemaster-suite-page-title--actions button.page-title-action.user-role-editor-action-button.user-role-editor-button-danger:hover {
   background: #ce0356 !important;
   color: #fff !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body {
   clear: both;
   width: 100%;
   background: #fff;
   border-radius: 8px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body input[type=checkbox] {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body input[type=checkbox] {
   width: 16px;
   height: 16px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body input[type=checkbox]:before {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body input[type=checkbox]:before {
   width: 18px !important;
   height: 18px !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading {
   padding: 25px 25px 0 25px;
   height: 85px;
   border-bottom: 1px solid #f1f1f3;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading label {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading label {
   line-height: 35px;
   font-size: 14px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading label input[type=checkbox] {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading label input[type=checkbox] {
   margin-top: -3px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading button {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading button {
   margin-right: 0 !important;
   margin-bottom: 0;
   top: 0;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container {
   width: 150px;
   color: #000;
   font-weight: normal;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control {
   border-color: hsl(0, 0%, 80%) !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__value-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__value-container {
   padding: 0px 8px !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__input-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__input-container {
   margin: 0 !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__indicator-separator {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__indicator-separator {
   display: none !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__indicator {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .top-heading .actions .action-select-container .action-select__control .action-select__indicator {
   color: hsl(0, 0%, 20%) !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list {
   flex-basis: 320px;
   border-right: 1px solid #f1f1f3;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul {
   margin: 0;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul li {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul li {
   line-height: 20px;
   font-size: 14px;
   padding: 13px 0 11px 22px;
@@ -147,12 +147,12 @@ body.wp-adminify {
   color: rgba(78, 75, 102, 0.72);
   cursor: pointer;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul li.active {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul li.active {
   background: #f9f9f9;
   color: var(--adminify-btn-bg);
   position: relative;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul li.active:before {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .role-list ul li.active:before {
   content: "";
   height: 30px;
   width: 2px;
@@ -161,53 +161,53 @@ body.wp-adminify {
   left: 0;
   top: 7px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list {
   flex-basis: calc(100% - 320px);
   padding: 30px 22px;
   color: #4e4b66;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading h5 {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading h5 {
   font-size: 16px;
   line-height: 16px;
   color: #14142b;
   margin: 0;
   float: left;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options {
   float: right;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option {
   line-height: 38px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=checkbox] {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=checkbox] {
   border-radius: 50%;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option.option-deny {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option.option-deny {
   color: #ce0356;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option.option-deny input[type=checkbox] {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option.option-deny input[type=checkbox] {
   border-color: #ce0356;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option.option-deny input[type=checkbox]:checked {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option.option-deny input[type=checkbox]:checked {
   background-color: #ce0356;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=text] {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=text] {
   background: transparent !important;
   border: 1px solid #f1f1f3;
   border-radius: 6px;
   width: 170px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=text]::-moz-placeholder {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=text]::-moz-placeholder {
   color: #4e4b66;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=text]::placeholder {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option input[type=text]::placeholder {
   color: #4e4b66;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container {
   display: inline-block;
   min-width: 150px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control {
   max-height: 18px;
   min-height: 36px;
   font-size: 14px;
@@ -216,28 +216,28 @@ body.wp-adminify {
   max-width: 172px;
   border-color: #f1f1f3 !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__value-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__value-container {
   padding: 0px 8px !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__input-container {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__input-container {
   margin: 0 !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__indicator-separator {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__indicator-separator {
   display: none !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__indicator {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option .post-select-container .post-select__control .post-select__indicator {
   color: hsl(0, 0%, 20%) !important;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option button {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilitiy-heading .capabilitiy-options .capabilitiy-option button {
   top: 0;
   margin-bottom: 0;
   margin-left: 5px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body {
   clear: both;
   overflow: hidden;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body .capability-items {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body .capability-items {
   -moz-column-width: auto;
        column-width: auto;
   display: inline-block;
@@ -249,7 +249,7 @@ body.wp-adminify {
        column-gap: 0;
   padding-left: 1px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body .capability-items .capability-item {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body .capability-items .capability-item {
   border: 1px solid #f1f1f3;
   margin-left: -1px;
   margin-bottom: -1px;
@@ -257,11 +257,11 @@ body.wp-adminify {
   line-height: 44px;
   padding-left: 12px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table {
   width: 100%;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table,
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table td {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table,
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table td {
   border: 1px solid #f1f1f3;
   border-collapse: collapse;
   text-align: center;
@@ -270,15 +270,15 @@ body.wp-adminify {
   color: #14142b;
   font-size: 14px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table tr td {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table tr td {
   width: 80px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table tr td:first-child {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table tr td:first-child {
   text-align: left;
   padding-left: 12px;
   width: 120px;
 }
-#rolemaster-suite-user--role--editor-root .wp-adminify--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table tr td.post-type {
+#rolemaster-suite-user--role--editor-root .rolemaster-suite--user--role--editor--container .adminify-user-role-editor-body .role-capabilities-settings .capabilities-list .capabilities-body table tr td.post-type {
   text-transform: capitalize;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap {

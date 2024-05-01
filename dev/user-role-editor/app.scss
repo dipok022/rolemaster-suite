@@ -1,6 +1,6 @@
 @import "../scss/variables", "../scss/mixins";
 #rolemaster-suite-user--role--editor-root {
-    .wp-adminify--user--role--editor--container {
+    .rolemaster-suite--user--role--editor--container {
         padding-top: 50px;
         position: relative;
         #adminify-data-saved-message {
@@ -18,7 +18,7 @@
             top: 0;
             left: 0;
         }
-        .wp-adminify-user--role--editor-loader {
+        .rolemaster-suite-user--role--editor-loader {
             background-color: rgba(255, 255, 255, 0.75);
             position: absolute;
             left: calc(50% - 30px);
@@ -55,7 +55,7 @@
                     }
                 }
             }
-            .wp-adminify--page--title--actions {
+            .rolemaster-suite-page-title--actions {
                 button {
                     &.page-title-action {
                         &.user-role-editor-action-button {

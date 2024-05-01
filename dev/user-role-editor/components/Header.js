@@ -83,7 +83,7 @@ function Header() {
                     />
                 </div>
 
-                <div className="wp-adminify--page--title--actions is-pulled-right">
+                <div className="rolemaster-suite-page-title--actions is-pulled-right">
                     <button
                         onClick={() => modalOpenHandler("delete_capability")}
                         className="page-title-action mr-3 user-role-editor-action-button user-role-editor-button-danger">

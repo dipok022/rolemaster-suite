@@ -35051,7 +35051,7 @@ function App() {
   }
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "wp-adminify--user--role--editor--container",
+      className: "rolemaster-suite--user--role--editor--container",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Body__WEBPACK_IMPORTED_MODULE_2__["default"], {})]
     })
   });
@@ -35648,7 +35648,7 @@ function Header() {
           styles: colourStyles
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "wp-adminify--page--title--actions is-pulled-right",
+        className: "rolemaster-suite-page-title--actions is-pulled-right",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
           onClick: function onClick() {
             return modalOpenHandler("delete_capability");
@@ -35703,9 +35703,9 @@ __webpack_require__.r(__webpack_exports__);
 
 function Loader() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    className: "wp-adminify--user--role--editor--container",
+    className: "rolemaster-suite--user--role--editor--container",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "wp-adminify-user--role--editor-loader"
+      className: "rolemaster-suite-user--role--editor-loader"
     })
   });
 }
