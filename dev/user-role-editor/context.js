@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect, useContext } from "@wordpress/element";
-
 import Api from "./services/Api";
 
 const AppContext = createContext();

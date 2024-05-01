@@ -278,7 +278,8 @@ const Body = () => {
                                     </div>
                                 ) : (
                                     <div className="capabilitiy-option">
-                                        <Select
+                                        asdf
+                                        {/* <Select
                                             fontSize="16px"
                                             className="post-select-container"
                                             classNamePrefix="post-select"
@@ -287,7 +288,7 @@ const Body = () => {
                                             onChange={handleSearchPostType}
                                             placeholder="Filter by post type"
                                             styles={colourStyles}
-                                        />
+                                        /> */}
                                         <button
                                             className="page-title-action user-role-editor-action-button"
                                             onClick={handleSearchPostTypeClear}>

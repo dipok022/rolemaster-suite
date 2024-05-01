@@ -1,4 +1,3 @@
-import React, { useState, useRef, useEffect } from "@wordpress/element";
 import Select from "react-select";
 import Alert from "./Alert";
 import { useGlobalContext } from "../context";
@@ -68,11 +67,12 @@ function Header() {
 
     return (
         <>
+            sadf
             {alert.show && <Alert {...alert} removeAlert={showAlert} />}
             <div className="adminify-user-role-editor-header">
                 <div className="adminify-user-role-editor-heading wp-heading-inline is-pulled-left is-flex is-align-items-center mt-3">
                     Role Capabilities &nbsp;
-                    <Select
+                    {/* <Select
                         fontSize="16px"
                         className="user-role-select-container"
                         classNamePrefix="user-role-select"
@@ -81,7 +81,7 @@ function Header() {
                         onChange={roleHandler}
                         placeholder="Select Role"
                         styles={colourStyles}
-                    />
+                    /> */}
                 </div>
 
                 <div className="wp-adminify--page--title--actions is-pulled-right">
