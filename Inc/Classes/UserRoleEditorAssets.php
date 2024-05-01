@@ -25,7 +25,7 @@ class UserRoleEditorAssets extends UserRoleEditorModel
         if (('admin.php' === $pagenow) && ('rolemaster_suite_editor-settings' === $_GET['page'])) {
 
             wp_register_style('rolemaster-suite-user-role-editor', ROLEMASTER_ASSETS . 'css/rolemaster-suite-user-role-editor.css', false, ROLEMASTER_VER);
-            wp_register_script('rolemaster-suite-user-role-editor', ROLEMASTER_ASSETS . 'js/rolemaster-suite-user-role-editor.js', ['wp-element'], ROLEMASTER_VER, true);
+            wp_register_script('rolemaster-suite-user-role-editor', ROLEMASTER_ASSETS . 'js/rolemaster-suite-user-role-editor.js', array('react', 'react-dom', 'wp-element', 'wp-i18n'), ROLEMASTER_VER, true);
 
             // Enqueue Styles
             wp_enqueue_style('rolemaster-suite-user-role-editor');
