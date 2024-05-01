@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "@wordpress/element";
 import Select from "react-select";
 import SaveButton from "./SaveButton";
 import { useGlobalContext } from "../context";

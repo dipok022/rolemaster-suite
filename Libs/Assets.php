@@ -47,7 +47,7 @@ if ( ! class_exists( 'Assets' ) ) {
 			wp_enqueue_style( 'rolemaster-suite-frontend', ROLEMASTER_ASSETS . 'css/rolemaster-suite-frontend.css', ROLEMASTER_VER, 'all' );
 
 			// JS Files .
-			wp_enqueue_script( 'rolemaster-suite-frontend', ROLEMASTER_ASSETS . 'js/role-master-suite-frontend.js', array( 'jquery' ), ROLEMASTER_VER, true );
+			wp_enqueue_script( 'rolemaster-suite-frontend', ROLEMASTER_ASSETS . 'js/rolemaster-suite-frontend.js', array( 'jquery' ), ROLEMASTER_VER, true );
 		}
 
 
@@ -58,10 +58,10 @@ if ( ! class_exists( 'Assets' ) ) {
 		 */
 		public function rolemaster_suite_admin_enqueue_scripts() {
 			// CSS Files .
-			wp_enqueue_style( 'rolemaster-suite-admin', ROLEMASTER_ASSETS . 'css/role-master-suite-admin.css', array( 'dashicons' ), ROLEMASTER_VER, 'all' );
+			wp_enqueue_style( 'rolemaster-suite-admin', ROLEMASTER_ASSETS . 'css/rolemaster-suite-admin.css', array( 'dashicons' ), ROLEMASTER_VER, 'all' );
 
 			// JS Files .
-			wp_enqueue_script( 'rolemaster-suite-admin', ROLEMASTER_ASSETS . 'js/role-master-suite-admin.js', array( 'jquery' ), ROLEMASTER_VER, true );
+			wp_enqueue_script( 'rolemaster-suite-admin', ROLEMASTER_ASSETS . 'js/rolemaster-suite-admin.js', array( 'jquery' ), ROLEMASTER_VER, true );
 			wp_localize_script(
 				'rolemaster-suite-admin',
 				'ROLEMASTERCORE',

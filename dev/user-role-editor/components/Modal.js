@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect } from "@wordpress/element";
 import Select from "react-select";
 import Api from "../services/Api";
 import { useGlobalContext } from "../context";

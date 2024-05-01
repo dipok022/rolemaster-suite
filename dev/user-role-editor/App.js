@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from '@wordpress/element';
 import Loader from './components/Loader'
 import Header from './components/Header'
 import Body from './components/Body'
@@ -20,7 +20,7 @@ function App() {
         <Header/>
         <Body/>
       </div>
-      <Modal/>
+      {/* <Modal/> */}
     </>
   );
 }

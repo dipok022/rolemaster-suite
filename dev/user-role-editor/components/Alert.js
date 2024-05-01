@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect} from '@wordpress/element';
 
 const Alert = ({show,message,removeAlert,reload}) => {
 

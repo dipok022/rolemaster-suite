@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useContext } from "react";
+import { createContext, useState, useEffect, useContext } from "@wordpress/element";
 
 import Api from "./services/Api";
 
-const AppContext = React.createContext();
+const AppContext = createContext();
 
 const AppProvider = ({ children }) => {
     const [alert, setAlert] = useState({ show: false, message: "", reload: false });
