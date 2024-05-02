@@ -68,8 +68,8 @@ function Header() {
     return (
         <>
             {alert.show && <Alert {...alert} removeAlert={showAlert} />}
-            <div className="adminify-user-role-editor-header">
-                <div className="adminify-user-role-editor-heading wp-heading-inline is-pulled-left is-flex is-align-items-center mt-3">
+            <div className="rmsure--header">
+                <div className="rmsure--heading rmsure-inline is-pulled-left is-flex is-align-items-center mt-3">
                     Role Capabilities &nbsp;
                     <Select
                         fontSize="16px"

@@ -17,7 +17,7 @@ function App() {
 
     return (
         <>
-            <div className="rolemaster-suite--user--role--editor--container">
+            <div className="rmsure-container">
                 <Header />
                 <Body />
             </div>

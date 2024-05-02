@@ -1,6 +1,6 @@
 function Loader() {
   return (
-    <div className="rolemaster-suite--user--role--editor--container">
+    <div className="rmsure-container">
         <div className="rolemaster-suite-user--role--editor-loader"></div>
     </div>
   )

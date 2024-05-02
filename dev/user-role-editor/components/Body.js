@@ -188,7 +188,7 @@ const Body = () => {
 
     return (
         <>
-            <div className="adminify-user-role-editor-body is-pulled-right mt-6">
+            <div className="rmsure--body is-pulled-right mt-6">
                 <div className="top-heading">
                     <div className="actions is-flex is-pulled-right">
                         <label className="mr-3" htmlFor="granted-only">
@@ -278,8 +278,7 @@ const Body = () => {
                                     </div>
                                 ) : (
                                     <div className="capabilitiy-option">
-                                        asdf
-                                        {/* <Select
+                                        <Select
                                             fontSize="16px"
                                             className="post-select-container"
                                             classNamePrefix="post-select"
@@ -288,7 +287,7 @@ const Body = () => {
                                             onChange={handleSearchPostType}
                                             placeholder="Filter by post type"
                                             styles={colourStyles}
-                                        /> */}
+                                        />
                                         <button
                                             className="page-title-action user-role-editor-action-button"
                                             onClick={handleSearchPostTypeClear}>

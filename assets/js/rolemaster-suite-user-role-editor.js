@@ -35051,7 +35051,7 @@ function App() {
   }
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-      className: "rolemaster-suite--user--role--editor--container",
+      className: "rmsure-container",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_Body__WEBPACK_IMPORTED_MODULE_2__["default"], {})]
     })
   });
@@ -35341,7 +35341,7 @@ var Body = function Body() {
   }, [selectAll, denyAll]);
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "adminify-user-role-editor-body is-pulled-right mt-6",
+      className: "rmsure--body is-pulled-right mt-6",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
         className: "top-heading",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
@@ -35431,7 +35431,16 @@ var Body = function Body() {
                 })]
               }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
                 className: "capabilitiy-option",
-                children: ["asdf", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_select__WEBPACK_IMPORTED_MODULE_4__["default"], {
+                  fontSize: "16px",
+                  className: "post-select-container",
+                  classNamePrefix: "post-select",
+                  options: post_types,
+                  value: searchPostType || "",
+                  onChange: handleSearchPostType,
+                  placeholder: "Filter by post type",
+                  styles: colourStyles
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
                   className: "page-title-action user-role-editor-action-button",
                   onClick: handleSearchPostTypeClear,
                   children: "Clear"
@@ -35634,9 +35643,9 @@ function Header() {
     children: [alert.show && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Alert__WEBPACK_IMPORTED_MODULE_0__["default"], _objectSpread(_objectSpread({}, alert), {}, {
       removeAlert: showAlert
     })), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "adminify-user-role-editor-header",
+      className: "rmsure--header",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "adminify-user-role-editor-heading wp-heading-inline is-pulled-left is-flex is-align-items-center mt-3",
+        className: "rmsure--heading rmsure-inline is-pulled-left is-flex is-align-items-center mt-3",
         children: ["Role Capabilities \xA0", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(react_select__WEBPACK_IMPORTED_MODULE_3__["default"], {
           fontSize: "16px",
           className: "user-role-select-container",
@@ -35703,7 +35712,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Loader() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    className: "rolemaster-suite--user--role--editor--container",
+    className: "rmsure-container",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
       className: "rolemaster-suite-user--role--editor-loader"
     })
