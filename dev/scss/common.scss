@@ -1,8 +1,10 @@
+@import "variables";
+
 .is-flex {
     display: flex;
 }
 .rmsure-inline {
-    color: #14142B;
+    color: $rmsure_black_color;
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 12px;
@@ -27,16 +29,16 @@
 .page-title-action {
     padding: 0 16px !important;
     font-size: 14px !important;
-    color: #fff !important;
+    color: $white !important;
     font-weight: 700 !important;
     line-height: 34px !important;
     height: auto;
-    background-color: #0347FF !important;
-    border: 1px solid #0347FF !important;
+    background-color: $rmsure_bg !important;
+    border: 1px solid $rmsure_bg !important;
     border-radius: 6px !important;
-    &:hover{
-        color: #0347FF !important;
-        background-color: #fff !important;
+    &:hover {
+        color: $rmsure_bg !important;
+        background-color: $white !important;
     }
 }
 
@@ -48,35 +50,35 @@
     margin-left: 0 !important;
     margin-bottom: 15px;
     padding: 0 16px !important;
-    color: #0347FF !important;
-    border: 1px solid #0347FF !important;
+    color: $rmsure_bg !important;
+    border: 1px solid $rmsure_bg !important;
     border-radius: 6px !important;
-    background-color: #fff !important;
+    background-color: $white !important;
     &:hover {
-        color: #fff !important;
-        background-color: #0347FF !important;
+        color: $white !important;
+        background-color: $rmsure_bg !important;
     }
     &.user-role-editor-button-danger {
-        border-color: #ce0356!important;
-        color: #ce0356 !important;
+        border-color: $rmsure_red_bg !important;
+        color: $rmsure_red_bg !important;
 
         &:hover {
-            background: #ce0356 !important;
-            color: #fff !important;
+            background: $rmsure_red_bg !important;
+            color: $white !important;
         }
     }
 }
 
- input[type="checkbox"] {
-     &::before {
-         width: 18px !important;
-         height: 18px !important;
-     }
-     &:checked{
-        background-color: #0347ff !important;
-        border-color: #0347ff !important;
-        color: #fff !important;
-        &::before{
+input[type="checkbox"] {
+    &::before {
+        width: 18px !important;
+        height: 18px !important;
+    }
+    &:checked {
+        background-color: $rmsure_bg !important;
+        border-color: $rmsure_bg !important;
+        color: $white !important;
+        &::before {
             content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E);
             background-color: transparent;
             webkit-filter: brightness(0) invert(1);
@@ -86,5 +88,5 @@
             margin-left: -3px;
             position: inherit;
         }
-     }
- }
+    }
+}

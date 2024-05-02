@@ -1,39 +1,40 @@
-$rmsure_bg : '#0347ff';
-
-
+$rmsure_bg: #0347ff;
+$rmsure_red_bg: #ce0356;
+$rmsure_black_color: #14142b;
+$rmsure_white_color: #f1f1f3;
 
 // Color variables
 $bodybg: var(--adminify-preset-background);
 $whitecolor: var(--adminify-text-color);
-$whitegray: #F1F1F3;
-$lightgray: #E5E5E5;
+$whitegray: #f1f1f3;
+$lightgray: #e5e5e5;
 $graycolor: var(--adminify-preset-background);
 $heading-bg-color: #f7f7f7;
-$graycolor2: #E7E7E8;
-$graycolor3: #FAFAFA;
+$graycolor2: #e7e7e8;
+$graycolor3: #fafafa;
 $primarycolor: var(--adminify-btn-bg);
 $primarylight: rgba(3, 71, 255, 0.17);
 $primarylight2: rgba(3, 71, 255, 0.1);
-$primarylight3: #D5E0FF;
-$blackcolor: #4E4B66;
+$primarylight3: #d5e0ff;
+$blackcolor: #4e4b66;
 $blackmuted: rgba(78, 75, 102, 0.72);
-$yellow: #FFC804;
-$yellowlight: #F4B740;
-$orange: #FF8800;
-$placeholder: #4E4B66;
+$yellow: #ffc804;
+$yellowlight: #f4b740;
+$orange: #ff8800;
+$placeholder: #4e4b66;
 $blackplaceholder: rgba(78, 75, 102, 0.54);
 $blackplaceholder2: var(--adminify-text-color);
 $redlight: var(--adminify-notif-bg-color);
 $reddark: rgb(195, 0, 82);
-$greencolor: #00BA88;
-$titlecolor: #14142B;
-$bodycolor: #E5E5E5;
+$greencolor: #00ba88;
+$titlecolor: #14142b;
+$bodycolor: #e5e5e5;
 $black: #000;
-$updatecolor: #FFFDF1;
-$blackborder: #CFCFCF;
-$placeholdersolid: #9391A0;
+$updatecolor: #fffdf1;
+$blackborder: #cfcfcf;
+$placeholdersolid: #9391a0;
 $blackpopover: rgba(0, 0, 0, 0.5);
-$panelbg: #312D48;
+$panelbg: #312d48;
 $fast: #0cce6b;
 $average: #ffa400;
 $slow: var(--adminify-notif-bg-color);
@@ -42,15 +43,15 @@ $dark-primary: #020407;
 $dark-mode-black-1: #1d1d1d;
 $dark-mode-white: #cfcfcf;
 $dark-mode-border-color-1: #2b2b2b;
-$dark-primary-dark: #0748F8;
-$dark-primary-light: #205BFF;
+$dark-primary-dark: #0748f8;
+$dark-primary-light: #205bff;
 $white: #fff;
 
 // New Template Variables
 $menu-bg-color: var(--adminify-menu-bg);
 $menu-text-color: var(--adminify-menu-text-color);
 $adminify-admin-bar-bg: var(--adminify-admin-bar-bg);
-$submenu-bg-color-dark: rgba($menu-bg-color, .05);
+$submenu-bg-color-dark: rgba($menu-bg-color, 0.05);
 $adminbar-icon-filter-brightness: var(--adminify-admin-bar-icon-brightness);
 
 // Font variables
@@ -64,12 +65,12 @@ $weight700: 700;
 
 // Box shadow and Border variables
 
-$grayshadow : 0px 0px 54px 0px rgba(20, 20, 42, 0.07);
+$grayshadow: 0px 0px 54px 0px rgba(20, 20, 42, 0.07);
 $insetshadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);
 $radius6p: 6px;
-$grayborder: #D8D8D8;
+$grayborder: #d8d8d8;
 $lightwhite: rgba(255, 255, 255, 0.1);
 
 // Margin & Padding Variables
 
-$btnpadding : 0 16px;
+$btnpadding: 0 16px;

@@ -3,7 +3,7 @@
 }
 
 .rmsure-inline {
-  color: #14142B;
+  color: #14142b;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 12px;
@@ -37,12 +37,12 @@
   font-weight: 700 !important;
   line-height: 34px !important;
   height: auto;
-  background-color: #0347FF !important;
-  border: 1px solid #0347FF !important;
+  background-color: #0347ff !important;
+  border: 1px solid #0347ff !important;
   border-radius: 6px !important;
 }
 .page-title-action:hover {
-  color: #0347FF !important;
+  color: #0347ff !important;
   background-color: #fff !important;
 }
 
@@ -54,14 +54,14 @@
   margin-left: 0 !important;
   margin-bottom: 15px;
   padding: 0 16px !important;
-  color: #0347FF !important;
-  border: 1px solid #0347FF !important;
+  color: #0347ff !important;
+  border: 1px solid #0347ff !important;
   border-radius: 6px !important;
   background-color: #fff !important;
 }
 .user-role-editor-action-button:hover {
   color: #fff !important;
-  background-color: #0347FF !important;
+  background-color: #0347ff !important;
 }
 .user-role-editor-action-button.user-role-editor-button-danger {
   border-color: #ce0356 !important;
@@ -105,7 +105,7 @@ input[type=checkbox]:checked::before {
   line-height: 16px;
   margin-bottom: 15px;
   width: auto;
-  background-color: "#0347ff";
+  background-color: #0347ff;
   border-radius: 3px;
   color: #fff;
   padding: 8px 15px;
@@ -123,7 +123,7 @@ input[type=checkbox]:checked::before {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: conic-gradient(rgba(0, 0, 0, 0) 10%, "#0347ff");
+  background: conic-gradient(rgba(0, 0, 0, 0) 10%, #0347ff);
   -webkit-mask: radial-gradient(farthest-side, rgba(0, 0, 0, 0) calc(100% - 8px), #000 0);
   animation: wp_adminify_loader_keyframe 1s infinite linear;
   z-index: 1;
@@ -565,7 +565,7 @@ input[type=checkbox]:checked::before {
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--sidebar-tab-item:hover i,
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--sidebar-tab-item.aesthetic-active,
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--sidebar-tab-item.aesthetic-active i {
-  color: "#0347ff";
+  color: #0347ff;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--sidebar-tab-item:after {
   content: "";
@@ -578,7 +578,7 @@ input[type=checkbox]:checked::before {
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--sidebar-tab-item.aesthetic-active:after,
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--sidebar-tab-item:hover:after {
-  background-color: "#0347ff";
+  background-color: #0347ff;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--icon-preview-wrap {
   background-color: #f5f5f5;
@@ -647,7 +647,7 @@ input[type=checkbox]:checked::before {
   font-style: italic;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--icon-search i {
-  color: "#0347ff";
+  color: #0347ff;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -674,8 +674,8 @@ input[type=checkbox]:checked::before {
   box-shadow: 0 1px 14px rgba(0, 0, 0, 0.16);
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-icon-item.aesthetic-selected {
-  -webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.05), 0 0 0 3px "#0347ff";
-  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.05), 0 0 0 3px "#0347ff";
+  -webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.05), 0 0 0 3px #0347ff;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.05), 0 0 0 3px #0347ff;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-icon-item-inner {
   display: -webkit-box;
@@ -708,7 +708,7 @@ input[type=checkbox]:checked::before {
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-icon-item:hover .aim-icon-item-inner i,
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-icon-item:hover .aim-icon-item-name {
-  color: "#0347ff";
+  color: #0347ff;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal .aim-modal--footer {
   background-color: #fff;
@@ -719,8 +719,8 @@ input[type=checkbox]:checked::before {
   width: 100%;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--footer button {
-  background-color: "#0347ff";
-  border: 1px solid "#0347ff";
+  background-color: #0347ff;
+  border: 1px solid #0347ff;
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -734,7 +734,7 @@ input[type=checkbox]:checked::before {
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .aim-modal--footer button:hover {
   background-color: #fff;
-  color: "#0347ff";
+  color: #0347ff;
 }
 #rolemaster-suite-user--role--editor-root .user-role-editor-modal-wrap .hide {
   display: none !important;
